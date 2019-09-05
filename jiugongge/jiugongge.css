@@ -1,0 +1,24 @@
+.box{
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* border: 1px solid #ccc; */
+    box-shadow: 1px 1px 5px #ccc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box div{
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    line-height: 20px;
+}
