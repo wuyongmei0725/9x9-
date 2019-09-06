@@ -1,0 +1,39 @@
+body{
+    font-size: 2vw;
+}
+.box{
+    width: 90vw;
+    height: 90vw;
+    margin: 0 auto;
+    /* border: 1px solid #ccc; */
+    box-shadow: 1px 1px 5px #ccc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box div{
+    width: 30vw;
+    height: 30vw;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    line-height: 5vh;
+    margin: 0;
+}
+.clickSpan{
+    display: inline-block;
+    height: 5vh;
+    width: 15vw;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    line-height: 5vh;
+    background-color: blueviolet;
+    text-align: center;
+    color: #fff;
+}
